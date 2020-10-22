@@ -1,5 +1,5 @@
-# Java Chat Application ![forthebadge made-with-java](http://ForTheBadge.com/images/badges/made-with-java.svg)  
-
+# Java Chat Application
+ ![forthebadge made-with-java](http://ForTheBadge.com/images/badges/made-with-java.svg)  
 A java chat application made for our oopm sem 3 mini project
 
 ## Functionality 
