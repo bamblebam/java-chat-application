@@ -1,5 +1,4 @@
 # Java Chat Application
- ![forthebadge made-with-java](http://ForTheBadge.com/images/badges/made-with-java.svg)  
 A java chat application made for our oopm sem 3 mini project
 
 ## Functionality 
@@ -8,3 +7,10 @@ It is a light weight java desktop application that allows two users to chat amon
 ## Software Features
 1. Ease of use due to a robust GUI.
 2. Simultaneous connectivity over a local server due to the use of web sockets.
+
+## Made with :heart: by
+1. Burhanuddin Rangwala 1911109
+2. Kush Patel 1911101
+3. Rishabh Kothari 1911110  
+
+ ![forthebadge made-with-java](http://ForTheBadge.com/images/badges/made-with-java.svg)  
