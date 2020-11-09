@@ -2,6 +2,11 @@
 
 A java chat application made for our oopm sem 3 mini project
 
+## Usage 
+1. Pull the code or clone this repo and cd into the working directory
+2. If using VS code just install the redhat java extension pack and run the 2 files simultaneously. Make sure ther server file is run before the client one.
+3. If using the command line 
+
 ## Functionality
 
 It is a light weight java desktop application that allows two users to chat among themselves simultaneously much like whatsapp or any other social media application.
