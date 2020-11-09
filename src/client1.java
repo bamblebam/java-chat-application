@@ -72,7 +72,9 @@ public class client1 extends JFrame implements ActionListener {
 
         a1 = new JTextArea();
         a1.setBounds(5, 75, 440, 570);
-        a1.setBackground(Color.PINK); // To check text-area
+        a1.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
+        // a1.setBackground(Color.PINK); // To check text-area
+        a1.setEditable(false);
         add(a1);
 
         t1 = new JTextField();
@@ -85,9 +87,10 @@ public class client1 extends JFrame implements ActionListener {
         b1.setBackground(new Color(7, 94, 84));
         b1.setForeground(Color.WHITE);
         b1.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
+        b1.addActionListener(this);
         add(b1);
 
-        // getContentPane().setBackground(Color.LIGHT_GRAY);
+        getContentPane().setBackground(Color.WHITE);
         setLayout(null);
         setSize(450, 700);
         setLocation(400, 50);
@@ -97,6 +100,9 @@ public class client1 extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent ae) {
+        String out = t1.getText();
+        a1.setText(a1.getText() + "\n" + out);
+        t1.setText(""); // This will empty text from typing area after clicking on send
 
     }
 
