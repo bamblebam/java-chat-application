@@ -2,6 +2,27 @@
 
 A java chat application made for our oopm sem 3 mini project
 
+## Usage 
+1. Pull the code or clone this repo and cd into the working directory
+2. If using VS code just install the redhat java extension pack and run the 2 files simultaneously. Make sure ther server file is run before the client one.
+3. If using the command line open 2 separate instances and cd into the working directory in both of them. One is for Server and other is for Client
+4. cd into the src/chatting/application folder in one of them and run 
+```bison
+javac Server.java
+      and
+javac Client.java
+```
+5. cd back into the working directory
+6. In the command prompt for Server, cd into src and run the command
+```bison
+java chatting.application.Server
+```
+7. In the command prompt for Client, cd into src and run the command
+```bison
+java chatting.application.Client
+```
+
+**Make sure it is done in this order only.**
 ## Functionality
 
 It is a light weight java desktop application that allows two users to chat among themselves simultaneously much like whatsapp or any other social media application.
