@@ -101,7 +101,7 @@ public class client1 extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent ae) {
         String out = t1.getText();
-        a1.setText(a1.getText() + "\n" + out);
+        a1.setText(a1.getText() + "\n\t\t\t" + out);
         t1.setText(""); // This will empty text from typing area after clicking on send
 
     }
