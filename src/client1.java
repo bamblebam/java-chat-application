@@ -95,7 +95,7 @@ public class client1 extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
         setSize(450, 700);
-        setLocation(400, 50);
+        setLocation(300, 50);
         setUndecorated(true);
         setVisible(true);
 
