@@ -2,6 +2,9 @@ package chatting.application;
 
 import javax.swing.*;
 import javax.swing.border.*;
+import javax.swing.plaf.*;
+import javax.swing.plaf.basic.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.net.*;
@@ -99,9 +102,31 @@ public class Server implements ActionListener {
         t.setInitialDelay(2000);
 
         a1 = new JPanel();
-        a1.setBounds(5, 75, 440, 570);
         a1.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
-        f1.add(a1);
+
+        JScrollPane sp = new JScrollPane(a1);
+        sp.setBounds(5, 75, 440, 570);
+        sp.setBorder(BorderFactory.createEmptyBorder());
+
+        ScrollBarUI ui = new BasicScrollBarUI() {
+            protected JButton createDecreaseButton(int orientation) {
+                JButton button = super.createDecreaseButton(orientation);
+                button.setBackground(new Color(7, 94, 84));
+                button.setForeground(Color.WHITE);
+                this.thumbColor = new Color(7, 94, 84);
+                return button;
+            }
+
+            protected JButton createIncreaseButton(int orientation) {
+                JButton button = super.createIncreaseButton(orientation);
+                button.setBackground(new Color(7, 94, 84));
+                button.setForeground(Color.WHITE);
+                return button;
+            }
+        };
+
+        sp.getVerticalScrollBar().setUI(ui);
+        f1.add(sp);
 
         t1 = new JTextField();
         t1.setBounds(5, 655, 310, 40);
