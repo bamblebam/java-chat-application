@@ -22,7 +22,12 @@ java chatting.application.Server
 java chatting.application.Client
 ```
 
-**Make sure it is done in this order only.**
+**Make sure it is done in this order only.**  
+
+After setting up the 2 instances you can message between them. Sometimes the message may take a while to appear because of packet loss in that case just message something else from the other client and it should work.  
+A working image of the app
+![image](images/1.png)
+
 ## Functionality
 
 It is a light weight java desktop application that allows two users to chat among themselves simultaneously much like whatsapp or any other social media application.
