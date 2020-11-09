@@ -75,6 +75,8 @@ public class client1 extends JFrame implements ActionListener {
         a1.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
         // a1.setBackground(Color.PINK); // To check text-area
         a1.setEditable(false);
+        a1.setLineWrap(true);// to avoid cutting of message and printing it on next line instead
+        a1.setWrapStyleWord(true);
         add(a1);
 
         t1 = new JTextField();
