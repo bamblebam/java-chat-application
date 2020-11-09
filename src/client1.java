@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class client1 extends JFrame implements ActionListener {
-    //////
+    //
     JPanel p1;
     JTextField t1;
     JButton b1;
