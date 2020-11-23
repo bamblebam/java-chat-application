@@ -34,6 +34,14 @@ After setting up the 2 instances you can message between them. Sometimes the mes
 
 It is a light weight java desktop application that allows two users to chat among themselves simultaneously much like whatsapp or any other social media application.
 
+## Features
+1. Simple &  User-friendly Chat UI design.
+2. Real time chatting on a given I.P Address using Socket Programming(Java Networking).
+3. Additional features such as Chat Bubble, Date & Time of the messages sent & received were also added.
+4. We have also included a scrollbar in our UI framework so that users can scroll back & forth between the messages.
+5. The  Status of the user i.e whether he is online ,typing,etc. is also shown while chatting.
+
+
 ## Software Features
 
 1. Ease of use due to a robust GUI.
